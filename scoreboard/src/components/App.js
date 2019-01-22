@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+ import React, {Component} from 'react';
 import Header from './Header';
 import Player from './Player';
 
@@ -30,11 +30,11 @@ class App extends Component {
     ]
   };
 
-    handleScoreChange = (delta) => {
-        // this.setState( prevState => ({
-        //     score: prevState.score + 1
-        // }));
-        console.log(delta)
+    handleScoreChange = (index,delta) => {
+        this.setState( prevState => ({
+            score: prevState.players[index].score += delta
+        }));
+
     }
 
 
@@ -55,12 +55,13 @@ class App extends Component {
         />
   
         {/* Players list */}
-        {this.state.players.map( player =>
+        {this.state.players.map( ( player, index) =>
           <Player 
             name={player.name}
             score={player.score}
             id={player.id}
             key={player.id.toString()}
+            index={index}
             changeScore={this.handleScoreChange}
             removePlayer={this.handleRemovePlayer}           
           />
