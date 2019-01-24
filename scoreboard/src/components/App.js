@@ -1,6 +1,7 @@
  import React, {Component} from 'react';
 import Header from './Header';
 import Player from './Player';
+import AddPlayerForm from './AddPlayerForm'
 
 
 
@@ -30,11 +31,25 @@ class App extends Component {
     ]
   };
 
+  //player id Counter
+
+  prePlayerId = 4;
     handleScoreChange = (index,delta) => {
         this.setState( prevState => ({
             score: prevState.players[index].score += delta
         }));
+    }
 
+    handleAddPlayer = (name) => {
+      this.setState({
+          players:[
+              {
+                name,
+                score:0,
+                  id: this.prePlayerId += 1
+
+          }]
+      })
     }
 
 
@@ -66,6 +81,8 @@ class App extends Component {
             removePlayer={this.handleRemovePlayer}           
           />
         )}
+
+        <AddPlayerForm addPlayer={this.handleAddPlayer}/>
       </div>
     );
   }
