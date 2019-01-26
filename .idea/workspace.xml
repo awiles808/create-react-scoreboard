@@ -135,6 +135,9 @@
     <findStrings>
       <find>pre</find>
       <find>prev</find>
+      <find>dependencies</find>
+      <find>&quot;merge&quot;</find>
+      <find>&quot;webpack-dev-server&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
