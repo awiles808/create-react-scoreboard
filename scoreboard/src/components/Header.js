@@ -1,23 +1,16 @@
 import React from 'react';
 import Stats from './Stats';
-import PropTypes from 'prop-types';
 import Stopwatch from './Stopwatch';
 
-const Header = ({players,title}) => {
+const Header = ({title}) => {
     return (
         <header>
-            <Stats players={players} />
+            <Stats />
             <h1>{ title }</h1>
             <Stopwatch/>
         </header>
     );
 }
-
-Header.proptypes = {
-    title: PropTypes.string,
-    players: PropTypes.arrayOf(PropTypes.object)
-
-};
 
 
 export default Header;

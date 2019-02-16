@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="76fb386a-0629-425e-a00b-ae752c9f0371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/scoreboard/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/Stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/Stats.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,37 +30,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5103" />
+          <entry key="js" value="5585" />
           <entry key="json" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="19" />
-          <entry key="JavaScript" value="5103" />
+          <entry key="JavaScript" value="5585" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scoreboard/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+            <state relative-caret-position="174">
+              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="e#1#42#0" expanded="true" />
               </folding>
@@ -97,8 +98,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="113">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Context/PlayerList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -121,11 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Stats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -162,12 +172,13 @@
         <option value="$PROJECT_DIR$/scoreboard/src/components/Stopwatch.js" />
         <option value="$PROJECT_DIR$/scoreboard/package-lock.json" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/AddPlayerForm.js" />
-        <option value="$PROJECT_DIR$/scoreboard/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/scoreboard/src/components/Stats.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Player.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Counter.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" />
+        <option value="$PROJECT_DIR$/scoreboard/src/components/Stats.js" />
+        <option value="$PROJECT_DIR$/scoreboard/src/components/Header.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/App.js" />
+        <option value="$PROJECT_DIR$/scoreboard/src/components/Context/PlayerList.js" />
       </list>
     </option>
   </component>
@@ -275,12 +286,12 @@
       <workItem from="1549467350424" duration="5256000" />
       <workItem from="1550015373071" duration="1048000" />
       <workItem from="1550103578698" duration="228000" />
-      <workItem from="1550187425616" duration="2609000" />
+      <workItem from="1550187425616" duration="6072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42117000" />
+    <option name="totallyTimeSpent" value="45580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="678" extended-state="0" />
@@ -333,36 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#1#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Stats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -385,10 +366,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scoreboard/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        <state relative-caret-position="174">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
           <folding>
             <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Stats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Context/PlayerList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
