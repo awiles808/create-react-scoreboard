@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76fb386a-0629-425e-a00b-ae752c9f0371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,26 +29,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="6" />
+          <entry key="js" value="7" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="4837" />
+          <entry key="js" value="5103" />
           <entry key="json" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="19" />
-          <entry key="JavaScript" value="4837" />
+          <entry key="JavaScript" value="5103" />
         </counts>
       </usages-collector>
     </session>
@@ -58,8 +58,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scoreboard/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="271">
+              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+              <folding>
+                <element signature="e#1#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Context/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -147,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scoreboard/src/components/App.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Stopwatch.js" />
         <option value="$PROJECT_DIR$/scoreboard/package-lock.json" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/AddPlayerForm.js" />
@@ -155,6 +166,8 @@
         <option value="$PROJECT_DIR$/scoreboard/src/components/Stats.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Player.js" />
         <option value="$PROJECT_DIR$/scoreboard/src/components/Counter.js" />
+        <option value="$PROJECT_DIR$/scoreboard/src/components/Context/index.js" />
+        <option value="$PROJECT_DIR$/scoreboard/src/components/App.js" />
       </list>
     </option>
   </component>
@@ -210,6 +223,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="create-react-scoreboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="create-react-scoreboard" type="462c0819:PsiDirectoryNode" />
+              <item name="scoreboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -254,15 +275,16 @@
       <workItem from="1549467350424" duration="5256000" />
       <workItem from="1550015373071" duration="1048000" />
       <workItem from="1550103578698" duration="228000" />
-      <workItem from="1550187425616" duration="1622000" />
+      <workItem from="1550187425616" duration="2609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41130000" />
+    <option name="totallyTimeSpent" value="42117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="678" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2192216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -354,10 +376,20 @@
     <entry file="file://$PROJECT_DIR$/scoreboard/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/scoreboard/src/components/Context/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scoreboard/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="271">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
