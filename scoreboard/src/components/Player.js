@@ -30,9 +30,8 @@ class Player extends PureComponent {
       </span>
 
                 <Counter
-                    score={score}
-                    index={index }
-                    
+                    score={ score}
+                    index={ index }
                 />
             </div>
         );
