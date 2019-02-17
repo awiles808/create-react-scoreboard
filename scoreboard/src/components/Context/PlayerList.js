@@ -8,12 +8,11 @@ const PlayerList = () => {
         <Consumer>
             {context => (
                 <React.Fragment>
-                    {context.map( (player, index) =>
+                    {context.players.map( (player, index) =>
                         <Player
                             {...player}
                             key={player.id.toString()}
                             index={index}
-                            changeScore={context.changeScore}
                             removePlayer={context.removePlayer}
                         />
                     )}
@@ -27,7 +26,6 @@ const PlayerList = () => {
 
 PlayerList.propTypes = {
     players: PropTypes.arrayOf(PropTypes.object),
-    changeScore: PropTypes.func.isRequired,
     removePlayer: PropTypes.func.isRequired
 };
 
